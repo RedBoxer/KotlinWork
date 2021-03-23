@@ -11,7 +11,7 @@ fun main()
     val chosenOne = lineList[(0..lineList.size).random()]
 
     println("Нужно составить слова из букв слова **$chosenOne**")
-    println("Когда закончаяться силы, фантазия или слова напишите {}")
+    println("Когда закончатся силы, фантазия или слова напишите {}")
 
     val userInput: MutableList<String> = mutableListOf()
     var currentInput = readLine()
